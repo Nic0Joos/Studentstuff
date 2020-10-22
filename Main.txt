@@ -6,7 +6,7 @@
 
 </Head>
 <Body>
-    <H1>This is studentstuff</H1>
+    <H1>This is Studentstuff</H1>
 </Body>
 
 
