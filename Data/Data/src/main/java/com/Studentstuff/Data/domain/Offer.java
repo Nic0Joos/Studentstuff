@@ -16,9 +16,11 @@ public class Offer{
     @Id
     @GeneratedValue
     private Long id;
+    private Customer Provider;
     private String ItemName;
-    private long price;
+    private Long price;
     private String description;
+    private Date date;
 
 
     public Long getId() {
@@ -29,17 +31,25 @@ public class Offer{
         this.id = id;
     }
 
-    public String getName() {
+    public Customer getProvider() {
+        return Provider;
+    }
+
+    public void setProvider(Customer provider) {
+        Provider = provider;
+    }
+
+    public String getItemName() {
         return ItemName;
     }
 
-    public void setName(String name) {
-        this.name = ItemName;
+    public void setItemName(String itemName) {
+        ItemName = itemName;
     }
 
     public int getPrice() {return price;}
 
-    public void setPrice(long price) {this.price = price;}
+    public void setPrice(Long price) {this.price = price;}
 
     public String getDescription() {
         return description;
@@ -49,5 +59,12 @@ public class Offer{
         this.description = description;
     }
 
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
 }
