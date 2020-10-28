@@ -16,6 +16,7 @@ public class Purchase{
     @Id
     @GeneratedValue
     private Long id;
+    private Customer buyer;
     private Offer offer;
 
     public Long getId() {
@@ -24,5 +25,21 @@ public class Purchase{
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Customer getBuyer() {
+        return buyer;
+    }
+
+    public void setBuyer(Customer buyer) {
+        this.buyer = buyer;
+    }
+
+    public Offer getOffer() {
+        return offer;
+    }
+
+    public void setOffer(Offer offer) {
+        this.offer = offer;
     }
 }
