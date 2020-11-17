@@ -16,7 +16,7 @@ public class Offer{
     @Id
     @GeneratedValue
     private Long id;
-    private Customer Provider;
+    private Seller seller;
     private String ItemName;
     private Long price;
     private String description;
@@ -31,12 +31,12 @@ public class Offer{
         this.id = id;
     }
 
-    public Customer getProvider() {
-        return Provider;
+    public Customer getSeller() {
+        return seller;
     }
 
-    public void setProvider(Customer provider) {
-        Provider = provider;
+    public void setProvider(Seller seller) {
+        this.seller = seller;
     }
 
     public String getItemName() {
