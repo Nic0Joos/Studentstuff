@@ -15,7 +15,7 @@ public class Purchase{
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long PurchId;
     private Customer buyer;
     private Offer offer;
 

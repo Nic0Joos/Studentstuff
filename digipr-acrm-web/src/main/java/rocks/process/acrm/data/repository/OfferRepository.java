@@ -12,7 +12,6 @@ import rocks.process.acrm.data.domain.Customer;
 import java.util.List;
 
 @Repository
-public interface CustomerRepository extends JpaRepository<Customer, Long> {
-	Customer findByMobile(String mobile);
-	Customer findByMobileAndIdNot(String mobile, Long agentId);
-}
+public interface OfferRepository extends JpaRepository<Customer, Long> {
+	List<Seller> findbySellerID(Seller SellerId);
+	}

@@ -15,7 +15,7 @@ public class Offer{
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long OfferId;
     private Seller seller;
     private String ItemName;
     private Long price;

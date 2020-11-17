@@ -15,7 +15,7 @@ public class Customer {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Long SellerId;
     private String companyname;
     @Email(message = "Please provide a valid e-mail.")
     @NotEmpty(message = "Please provide an e-mail.")

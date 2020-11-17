@@ -7,10 +7,13 @@ package rocks.process.acrm.data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import rocks.process.acrm.data.domain.Agent;
+import rocks.process.acrm.data.domain.Customer;
+
+import java.util.List;
 
 @Repository
-public interface AgentRepository extends JpaRepository<Agent, Long> {
-	Agent findByEmail(String email);
-	Agent findByEmailAndIdNot(String email, Long agentId);
+public interface SellerRepository extends JpaRepository<Customer, Long> {
+	Seller findByMobile(String mobile);
+	Seller findByMobileAndIdNot(String mobile, Long SellerId);
+
 }
