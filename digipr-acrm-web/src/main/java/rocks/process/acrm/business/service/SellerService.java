@@ -16,7 +16,7 @@ import java.util.List;
 
 @Service
 @Validated
-public class CustomerService {
+public class SellerService {
 
 	@Autowired
 	private CustomerRepository customerRepository;

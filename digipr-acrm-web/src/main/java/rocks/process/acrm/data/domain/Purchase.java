@@ -16,7 +16,9 @@ public class Purchase{
     @Id
     @GeneratedValue
     private Long PurchId;
+    @ManyToOne
     private Customer buyer;
+    @OneToOne
     private Offer offer;
 
     public Long getId() {

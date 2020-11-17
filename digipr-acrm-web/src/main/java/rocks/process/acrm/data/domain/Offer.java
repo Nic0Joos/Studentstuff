@@ -16,10 +16,12 @@ public class Offer{
     @Id
     @GeneratedValue
     private Long OfferId;
+    @ManyToOne
     private Seller seller;
     private String ItemName;
     private Long price;
     private String description;
+    @Temporal
     private Date date;
 
 
