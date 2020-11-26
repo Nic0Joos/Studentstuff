@@ -19,7 +19,7 @@ import java.util.List;
 public class SellerService {
 
 	@Autowired
-	private CustomerRepository customerRepository;
+	private SellerRepository SellerRepository;
 
 
 

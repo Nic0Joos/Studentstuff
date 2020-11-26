@@ -18,7 +18,8 @@ import java.util.List;
 @Validated
 public class OfferService {
 
-
+    @Autowired
+    private OfferRepository OfferRepository;
 
 
 

@@ -18,8 +18,9 @@ import java.util.List;
 @Validated
 public class PurchaseService {
 
-
-
+	//Methods
+    @Autowired
+    private PurchaseRepository PurchaseRepository;
 
 
 }

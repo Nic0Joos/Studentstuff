@@ -22,16 +22,16 @@ import java.util.List;
 @RequestMapping(path = "/api")
 public class CustomerEndpoint {
     @Autowired
-    private CustomerService customerService;
+    private CustomerService   customer = customerService.editCustomer(customer);
+} catch (ConstraintViolationException e) {
+        throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE, e.getConstraintViolations().iterator().next().getMessage());
+        } catch (Exception e) {
+        throw new ResponseStatusException(HttpStatus.CONFLI customerService;
 
     @PostMapping(path = "/customer", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Customer> postCustomer(@RequestBody Customer customer) {
         try {
-            customer = customerService.editCustomer(customer);
-        } catch (ConstraintViolationException e) {
-            throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE, e.getConstraintViolations().iterator().next().getMessage());
-        } catch (Exception e) {
-            throw new ResponseStatusException(HttpStatus.CONFLICT, e.getMessage());
+         CT, e.getMessage());
         }
 
         URI location = ServletUriComponentsBuilder

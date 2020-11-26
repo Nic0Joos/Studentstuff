@@ -15,4 +15,6 @@ import java.util.List;
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 	Customer findByMobile(String mobile);
 	Customer findByMobileAndIdNot(String mobile, Long agentId);
+
+	List<Purchase> findByPurchase(Long PurchaseID)
 }

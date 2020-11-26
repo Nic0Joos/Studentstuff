@@ -16,4 +16,5 @@ public interface SellerRepository extends JpaRepository<Customer, Long> {
 	Seller findByMobile(String mobile);
 	Seller findByMobileAndIdNot(String mobile, Long SellerId);
 
+	List<Offer> findByOffer(Long OfferID)
 }
