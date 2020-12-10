@@ -1,4 +1,4 @@
-package.com.Studentstuff.data.domain;
+package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -11,7 +11,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
-public class Offer{
+public class Offer {
 
     @Id
     @GeneratedValue
@@ -21,19 +21,20 @@ public class Offer{
     private String ItemName;
     private Long price;
     private String description;
-    @Temporal
-    private Date date;
+    private byte[] picture;
+    /*@Temporal
+    private Date date;*/
 
 
     public Long getId() {
-        return id;
+        return OfferId;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.OfferId = id;
     }
 
-    public Customer getSeller() {
+    public Seller getSeller() {
         return seller;
     }
 
@@ -49,9 +50,13 @@ public class Offer{
         ItemName = itemName;
     }
 
-    public int getPrice() {return price;}
+    public long getPrice() {
+        return price;
+    }
 
-    public void setPrice(Long price) {this.price = price;}
+    public void setPrice(Long price) {
+        this.price = price;
+    }
 
     public String getDescription() {
         return description;
@@ -60,13 +65,4 @@ public class Offer{
     public void setDescription(String description) {
         this.description = description;
     }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
 }

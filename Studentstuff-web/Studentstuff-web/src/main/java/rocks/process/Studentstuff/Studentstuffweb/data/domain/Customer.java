@@ -1,4 +1,4 @@
-package.com.Studentstuff.data.domain;
+package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -24,11 +24,11 @@ public class Customer {
 
 
     public Long getId() {
-        return id;
+        return CustId;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.CustId = id;
     }
 
     public String getName() {
@@ -52,8 +52,5 @@ public class Customer {
     }
 
     public void setMobile(String mobile) {this.mobile = mobile;}
-
-}
-
 
 }

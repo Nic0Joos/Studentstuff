@@ -3,16 +3,16 @@
  * All rights reserved.
  */
 
-package rocks.process.acrm.data.repository;
+package rocks.process.Studentstuff.Studentstuffweb.data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import rocks.process.acrm.data.domain.Customer;
+import rocks.process.Studentstuff.Studentstuffweb.data.domain.Purchase;
 
 import java.util.List;
 
 @Repository
-public interface PurchaseRepository extends JpaRepository<Customer, Long> {
-	List<Customer> findByCustomer(Long CustId);
+public interface PurchaseRepository extends JpaRepository<Purchase, Long> {
+	Purchase findByCustomer(Long PurchaseID);
 
 }

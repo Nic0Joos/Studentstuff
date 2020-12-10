@@ -3,16 +3,13 @@
  * All rights reserved.
  */
 
-package rocks.process.acrm.business.service;
+package rocks.process.Studentstuff.Studentstuffweb.business.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import rocks.process.acrm.data.domain.Customer;
-import rocks.process.acrm.data.repository.CustomerRepository;
-
-import javax.validation.Valid;
-import java.util.List;
+import rocks.process.Studentstuff.Studentstuffweb.data.domain.Customer;
+import rocks.process.Studentstuff.Studentstuffweb.data.repository.CustomerRepository;
 
 @Service
 @Validated
@@ -21,8 +18,10 @@ public class CustomerService {
 	@Autowired
 	private CustomerRepository customerRepository;
 
-	private Customer CustomerRegistration() {
 
+	public void deleteCustomer(Long customerId)
+	{
+		customerRepository.deleteById(customerId);
 	}
 
 

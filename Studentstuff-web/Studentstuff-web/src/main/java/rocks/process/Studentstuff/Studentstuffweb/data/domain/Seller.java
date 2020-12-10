@@ -1,17 +1,14 @@
-package.com.Studentstuff.data.domain;
+package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToOne;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
 @Entity
-public class Customer {
+public class Seller {
 
     @Id
     @GeneratedValue
@@ -24,19 +21,19 @@ public class Customer {
 
 
     public Long getId() {
-        return id;
+        return SellerId;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.SellerId = id;
     }
 
     public String getName() {
-        return name;
+        return companyname;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.companyname = name;
     }
 
     public String getEmail() {
@@ -52,8 +49,5 @@ public class Customer {
     }
 
     public void setMobile(String mobile) {this.mobile = mobile;}
-
-}
-
 
 }

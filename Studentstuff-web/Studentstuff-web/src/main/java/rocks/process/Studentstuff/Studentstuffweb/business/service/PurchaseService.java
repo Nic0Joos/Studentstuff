@@ -3,13 +3,13 @@
  * All rights reserved.
  */
 
-package rocks.process.acrm.business.service;
+package rocks.process.Studentstuff.Studentstuffweb.business.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
-import rocks.process.acrm.data.domain.Customer;
-import rocks.process.acrm.data.repository.CustomerRepository;
+import rocks.process.Studentstuff.Studentstuffweb.data.domain.Purchase;
+import rocks.process.Studentstuff.Studentstuffweb.data.repository.PurchaseRepository;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -21,6 +21,5 @@ public class PurchaseService {
 	//Methods
     @Autowired
     private PurchaseRepository PurchaseRepository;
-
 
 }

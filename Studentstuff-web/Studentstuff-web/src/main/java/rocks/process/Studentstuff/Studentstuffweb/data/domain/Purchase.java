@@ -1,12 +1,9 @@
-package.com.Studentstuff.data.domain;
+package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotEmpty;
 
@@ -22,11 +19,11 @@ public class Purchase{
     private Offer offer;
 
     public Long getId() {
-        return id;
+        return PurchId;
     }
 
     public void setId(Long id) {
-        this.id = id;
+        this.PurchId = id;
     }
 
     public Customer getBuyer() {

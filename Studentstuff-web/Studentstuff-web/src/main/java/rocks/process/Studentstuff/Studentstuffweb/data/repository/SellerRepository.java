@@ -3,18 +3,17 @@
  * All rights reserved.
  */
 
-package rocks.process.acrm.data.repository;
+package rocks.process.Studentstuff.Studentstuffweb.data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import rocks.process.acrm.data.domain.Customer;
+import rocks.process.Studentstuff.Studentstuffweb.data.domain.Seller;
 
 import java.util.List;
 
 @Repository
-public interface SellerRepository extends JpaRepository<Customer, Long> {
+public interface SellerRepository extends JpaRepository<Seller, Long> {
 	Seller findByMobile(String mobile);
 	Seller findByMobileAndIdNot(String mobile, Long SellerId);
 
-	List<Offer> findByOffer(Long OfferID)
 }
