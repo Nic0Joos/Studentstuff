@@ -22,16 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Adjusted dropdown / added service classes">
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="added static links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/403.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/About.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Marketplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Marketplace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/PrivacyPolicy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/PrivacyPolicy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/Bootstrap designs/Terms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/About.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/About.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CustomerRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CustomerRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Error403.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Error403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Error404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Error404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/PrivacyPolicy.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/PrivacyPolicy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/SupplierRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/SupplierRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Terms.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608668973344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added static links">
+      <created>1608669866162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608669866162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,21 +126,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cleaned up errors on paths" />
     <MESSAGE value="Adjusted dropdown / added service classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted dropdown / added service classes" />
+    <MESSAGE value="added static links" />
+    <option name="LAST_COMMIT_MESSAGE" value="added static links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607608978694">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1607608978694" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1608668976015">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1608669870994">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1607609916335" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608668976015" />
-    <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608669019559">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608669870994" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608733431586">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1608733431586" />
+    <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608676308241" />
     <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1608669019559" />
   </component>
 </project>

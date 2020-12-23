@@ -15,6 +15,7 @@ import java.util.List;
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 	Customer findByMobile(String mobile);
 
+	Customer CreateCustomer(String name, String email, String mobile);
 
 
 }

@@ -16,12 +16,11 @@ import rocks.process.Studentstuff.Studentstuffweb.data.repository.CustomerReposi
 public class CustomerService {
 
 	@Autowired
-	private CustomerRepository customerRepository;
-
+	private CustomerRepository CustomerRepository;
 
 	public void deleteCustomer(Long customerId)
 	{
-		customerRepository.deleteById(customerId);
+		CustomerRepository.deleteById(customerId);
 	}
 
 
