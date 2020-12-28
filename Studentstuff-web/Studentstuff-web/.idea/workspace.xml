@@ -22,13 +22,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Footer adjustments">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" afterDir="false" />
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Implemented customer register">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/config/EnableTokenSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/config/TokenSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/config/TokenSecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/model/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/model/TokenUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/web/CSRFRequestMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/web/TokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/web/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/web/TokenLogoutHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/CustomerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/CustomerEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CustomerRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CustomerRegister.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +71,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rocks.process.Studentstuff.Studentstuffweb.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\java\rocks\process\Studentstuff\Studentstuffweb" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -127,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609161459969</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implemented customer register">
+      <created>1609186906935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609186906935</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,7 +169,8 @@
     <MESSAGE value="Link adjustments" />
     <MESSAGE value="Entered privacy policy" />
     <MESSAGE value="Footer adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer adjustments" />
+    <MESSAGE value="Implemented customer register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented customer register" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607608978694">
@@ -160,16 +181,20 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="496" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1608739283008" />
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1609161464550">
+    <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog" timestamp="1609189504498">
       <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609189504498" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609186908945">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609161464550" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608669870994" />
-    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609149739705">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609186908945" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609188459848">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609149739705" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609188459848" />
     <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608676308241" />
     <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1608669019559" />
   </component>
