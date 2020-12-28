@@ -11,17 +11,27 @@ import org.springframework.validation.annotation.Validated;
 import rocks.process.Studentstuff.Studentstuffweb.data.domain.Customer;
 import rocks.process.Studentstuff.Studentstuffweb.data.repository.CustomerRepository;
 
+import javax.validation.Valid;
+
 @Service
 @Validated
 public class CustomerService {
 
 	@Autowired
-	private CustomerRepository CustomerRepository;
+	private CustomerRepository customerRepository;
 
-	public void deleteCustomer(Long customerId)
-	{
-		CustomerRepository.deleteById(customerId);
+	public Customer editCustomer(@Valid Customer customer) throws Exception {
+		if (customer.getId() == null) {
+			if (customerRepository.findByMail(customer.getEmail()) == null) {
+
+				return customerRepository.save(customer);
+			}
+			throw new Exception("Email " + customer.getEmail() + " already assigned to a customer.");
+		}
+		if (customerRepository.findyByMailAndIdNot(customer.getMobile(), customer.getId()) == null) {
+
+			return customerRepository.save(customer);
+		}
+		throw new Exception("Email " + customer.getEmail() + " already assigned to a customer.");
 	}
-
-
 }

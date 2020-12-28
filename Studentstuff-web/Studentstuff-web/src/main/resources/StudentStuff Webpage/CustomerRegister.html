@@ -66,9 +66,19 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-<script>
-    <!--Function to forward the paremeters -->
-</script>
+    <script language="JavaScript">
+        $(document).ready(function () {
+            $("#form").submit(function (event) {
+                postCustomer(getCustomerJSON(null, $('input[name=name]').val(), $('input[name=email]').val(), $('input[name=mobile]').val()), function (result) {
+                    window.location.replace("/customer");
+                }, function (error) {
+                    $("#error-modal").modal('show');
+                    $("#error-text").text(error);
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -20,7 +20,7 @@ public class CustomerEndpoint {
     @Autowired
     private CustomerService customerService;
 
-    /*@PostMapping(path = "/customer", consumes = "application/json", produces = "application/json")
+    @PostMapping(path = "/customer", consumes = "application/json", produces = "application/json")
     public ResponseEntity<Customer> postCustomer(@RequestBody Customer customer) {
         try {
             customer = customerService.editCustomer(customer);
@@ -37,10 +37,6 @@ public class CustomerEndpoint {
         return ResponseEntity.created(location).body(customer);
     }
 
-    @GetMapping(path = "/customer", produces = "application/json")
-    public List<Customer> getCustomers() {
-        return customerService.findAllCustomers();
-    }*/
 
 }
 

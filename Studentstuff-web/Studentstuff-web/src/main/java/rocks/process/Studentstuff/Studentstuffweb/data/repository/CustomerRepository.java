@@ -13,9 +13,7 @@ import java.util.List;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
-	Customer findByMobile(String mobile);
-
-	Customer CreateCustomer(String name, String email, String mobile);
-
+	Customer findByMail(String email);
+	Customer findyByMailAndIdNot(String email, Long CustomerID);
 
 }
