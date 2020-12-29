@@ -1,8 +1,6 @@
 package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,13 +14,11 @@ public class Offer {
     @GeneratedValue
     private Long OfferId;
     @ManyToOne
-    private Seller seller;
+    private Customer seller;
     private String ItemName;
     private Long price;
     private String description;
     private byte[] picture;
-    /*@Temporal
-    private Date date;*/
 
 
     public Long getId() {
@@ -33,11 +29,11 @@ public class Offer {
         this.OfferId = id;
     }
 
-    public Seller getSeller() {
+    public Customer getSeller() {
         return seller;
     }
 
-    public void setProvider(Seller seller) {
+    public void setProvider(Customer seller) {
         this.seller = seller;
     }
 
