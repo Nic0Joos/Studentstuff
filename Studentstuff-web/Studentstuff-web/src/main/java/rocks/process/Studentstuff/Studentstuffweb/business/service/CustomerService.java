@@ -28,9 +28,9 @@ public class CustomerService {
 			}
 			throw new Exception("Email " + customer.getEmail() + " already assigned to a customer.");
 		}
-		if (customerRepository.findyByMailAndIdNot(customer.getMobile(), customer.getId()) == null) {
+		if (customerRepository.findyByMailAndIdNot(customer.getEmail(), customer.getId()) == null) {
 
-			return customerRepository.save(customer);
+			return customerRepository.save(customer); //If mail and ID doesn't exist -> save
 		}
 		throw new Exception("Email " + customer.getEmail() + " already assigned to a customer.");
 	}
