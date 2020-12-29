@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Adjusted customer to seller and buyer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/config/WebSecurityConfig.java" afterDir="false" />
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Add config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609231876180</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add config">
+      <created>1609232272301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232272301</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,7 +187,8 @@
     <MESSAGE value="Implemented customer register" />
     <MESSAGE value="Implemented security" />
     <MESSAGE value="Adjusted customer to seller and buyer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted customer to seller and buyer" />
+    <MESSAGE value="Add config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607608978694">
@@ -201,16 +207,16 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609192405203" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609231880679">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1609232276043">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609191729458" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
-    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609231880679" />
-    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609188459848">
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609232276043" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609242026284">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609188459848" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609242026284" />
     <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608676308241" />
     <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1608669019559" />
   </component>
