@@ -22,16 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Add config">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/CustomerController.java" afterDir="false" />
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Offer post-method / customer register">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/CustomerEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609243850302</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Offer post-method / customer register">
+      <created>1609335164812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335164812</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +206,8 @@
     <MESSAGE value="Implemented security" />
     <MESSAGE value="Adjusted customer to seller and buyer" />
     <MESSAGE value="Add config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add config" />
+    <MESSAGE value="Offer post-method / customer register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offer post-method / customer register" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1609334506096">
@@ -230,10 +230,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609192405203" />
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1609243854975">
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1609335169380">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609243854975" />
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609335169380" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609232276043" />
     <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609330349071">
