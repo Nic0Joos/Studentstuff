@@ -15,10 +15,10 @@ public class Offer {
     private Long OfferId;
     @ManyToOne
     private Customer seller;
-    private String ItemName;
-    private Long price;
+    private String name;
+    private String price;
     private String description;
-    private byte[] picture;
+    private byte[] files;
 
 
     public Long getId() {
@@ -38,18 +38,18 @@ public class Offer {
     }
 
     public String getItemName() {
-        return ItemName;
+        return name;
     }
 
-    public void setItemName(String itemName) {
-        ItemName = itemName;
+    public void setItemName(String name) {
+        this.name = name;
     }
 
-    public long getPrice() {
+    public String getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(String price) {
         this.price = price;
     }
 
@@ -59,5 +59,13 @@ public class Offer {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public byte[] getFiles() {
+        return files;
+    }
+
+    public void setFiles(byte[] files) {
+        this.files = files;
     }
 }

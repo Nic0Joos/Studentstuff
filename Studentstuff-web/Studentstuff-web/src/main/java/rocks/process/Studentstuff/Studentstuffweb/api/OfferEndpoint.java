@@ -3,27 +3,29 @@ package rocks.process.Studentstuff.Studentstuffweb.api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import rocks.process.Studentstuff.Studentstuffweb.business.service.CustomerService;
-import rocks.process.Studentstuff.Studentstuffweb.data.domain.Customer;
+import rocks.process.Studentstuff.Studentstuffweb.business.service.OfferService;
+import rocks.process.Studentstuff.Studentstuffweb.data.domain.Offer;
 
 import javax.validation.ConstraintViolationException;
 import java.net.URI;
-import java.util.List;
 
 @RestController
 @RequestMapping(path ="/api")
-public class CustomerEndpoint {
+public class OfferEndpoint {
 
     @Autowired
-    private CustomerService customerService;
+    private OfferService offerService;
 
-    @PostMapping(path = "/customer", consumes = "application/json", produces = "application/json")
-    public ResponseEntity<Customer> postCustomer(@RequestBody Customer customer) {
+    @PostMapping(path = "/offer", consumes = "application/json", produces = "application/json")
+    public ResponseEntity<Offer> postOffer(@RequestBody Offer offer) {
         try {
-            customer = customerService.editCustomer(customer);
+            offer = offerService.editOffer(offer);
         } catch (ConstraintViolationException e) {
             throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE, e.getConstraintViolations().iterator().next().getMessage());
         } catch (Exception e) {
@@ -32,9 +34,9 @@ public class CustomerEndpoint {
 
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest().path("/{customerId}")
-                .buildAndExpand(customer.getId()).toUri();
+                .buildAndExpand(offer.getId()).toUri();
 
-        return ResponseEntity.created(location).body(customer);
+        return ResponseEntity.created(location).body(offer);
     }
 
 

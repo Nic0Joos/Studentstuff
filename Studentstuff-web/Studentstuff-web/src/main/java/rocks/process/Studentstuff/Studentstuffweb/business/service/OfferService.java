@@ -12,15 +12,16 @@ import rocks.process.Studentstuff.Studentstuffweb.data.domain.Offer;
 import rocks.process.Studentstuff.Studentstuffweb.data.repository.OfferRepository;
 
 import javax.validation.Valid;
-import java.util.List;
 
 @Service
 @Validated
 public class OfferService {
 
     @Autowired
-    private OfferRepository OfferRepository;
+    private OfferRepository offerRepository;
 
-
+    public Offer editOffer(@Valid Offer offer) throws Exception {
+        return offerRepository.save(offer);
+    }
 
 }
