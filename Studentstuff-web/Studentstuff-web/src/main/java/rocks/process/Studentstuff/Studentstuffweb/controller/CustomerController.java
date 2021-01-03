@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.server.ResponseStatusException;
 import rocks.process.Studentstuff.Studentstuffweb.business.service.CustomerService;
@@ -26,5 +27,18 @@ public class CustomerController {
         return ResponseEntity.ok().build();
     }
 
+    @RequestMapping (path = "/edit")
+        public String getCustomerEditView() {return "EditAccount.html"}
 
-}
+        @GetMapping ("/create")
+            public string getCustomerCreateView() {return "CreateOffer.html"}
+
+        @GetMapping ("/buy")
+            public string getMarketplaceView() {return "Marketplace.html"}
+
+        @GetMapping ("/Policy")
+            public string getPolicyView() {return "PrivacyPolicy.html"}
+
+
+
+
