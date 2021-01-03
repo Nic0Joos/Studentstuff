@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,6 +13,7 @@ import rocks.process.Studentstuff.Studentstuffweb.business.service.CustomerServi
 import rocks.process.Studentstuff.Studentstuffweb.data.domain.Customer;
 
 @Controller
+@RequestMapping(path = "/customer")
 public class CustomerController {
 
     @Autowired
@@ -27,17 +29,17 @@ public class CustomerController {
         return ResponseEntity.ok().build();
     }
 
-    @RequestMapping (path = "/edit")
-        public String getCustomerEditView() {return "EditAccount.html"}
+    @GetMapping(path = "/edit")
+        public String getCustomerEditView() {return "EditAccount.html";}
 
         @GetMapping ("/create")
-            public string getCustomerCreateView() {return "CreateOffer.html"}
+        public String getCustomerCreateView() {return "CreateOffer.html";}
 
         @GetMapping ("/buy")
-            public string getMarketplaceView() {return "Marketplace.html"}
+        public String getMarketplaceView() {return "Marketplace.html";}
 
         @GetMapping ("/Policy")
-            public string getPolicyView() {return "PrivacyPolicy.html"}
+        public String getPolicyView() {return "PrivacyPolicy.html";}
 
 
 

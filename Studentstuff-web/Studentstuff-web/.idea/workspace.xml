@@ -22,15 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="getCookie method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/HomeController.java" afterDir="false" />
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Minor bug fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/CustomerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609336349189</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Minor bug fixes">
+      <created>1609673369269</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609673369269</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +222,8 @@
     <MESSAGE value="Add config" />
     <MESSAGE value="Offer post-method / customer register" />
     <MESSAGE value="getCookie method" />
-    <option name="LAST_COMMIT_MESSAGE" value="getCookie method" />
+    <MESSAGE value="Minor bug fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor bug fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1609673292355">
