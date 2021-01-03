@@ -14,34 +14,35 @@ public class Offer {
     @GeneratedValue
     private Long OfferId;
     @ManyToOne
-    private Customer seller;
+    private Customer provider;
     private String name;
     private String price;
     private String description;
     private byte[] files;
+    private boolean bought;
 
 
-    public Long getId() {
+    public Long getOfferId() {
         return OfferId;
     }
 
-    public void setId(Long id) {
-        this.OfferId = id;
+    public void setOfferId(Long offerId) {
+        OfferId = offerId;
     }
 
     public Customer getSeller() {
-        return seller;
+        return provider;
     }
 
-    public void setProvider(Customer seller) {
-        this.seller = seller;
+    public void setProvider(Customer provider) {
+        this.provider = provider;
     }
 
-    public String getItemName() {
+    public String getName() {
         return name;
     }
 
-    public void setItemName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -67,5 +68,13 @@ public class Offer {
 
     public void setFiles(byte[] files) {
         this.files = files;
+    }
+
+    public boolean isBought() {
+        return bought;
+    }
+
+    public void setBought(boolean bought) {
+        this.bought = bought;
     }
 }

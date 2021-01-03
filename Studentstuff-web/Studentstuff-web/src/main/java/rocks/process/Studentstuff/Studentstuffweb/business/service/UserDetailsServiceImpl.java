@@ -23,10 +23,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Customer user = customerRepository.findByMail(username);
-        if (user == null) {
+        Customer customer = customerRepository.findByMail(username);
+        if (customer == null) {
             throw new UsernameNotFoundException(username);
         }
-        return new User(user.getEmail(), user.getPassword(), emptyList());
+        return new User(customer.getEmail(), customer.getPassword(), emptyList());
     }
 }

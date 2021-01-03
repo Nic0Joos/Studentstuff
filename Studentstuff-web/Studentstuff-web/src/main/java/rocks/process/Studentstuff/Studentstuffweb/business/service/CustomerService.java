@@ -6,6 +6,7 @@
 package rocks.process.Studentstuff.Studentstuffweb.business.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
@@ -36,5 +37,10 @@ public class CustomerService {
 		}
 		customer.setPassword(passwordEncoder.encode(customer.getPassword()));
 		customerRepository.save(customer);
+	}
+
+	public Customer getCurrentCustomer() {
+		String userEmail = (String) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+		return customerRepository.findByMail(userEmail);
 	}
 }

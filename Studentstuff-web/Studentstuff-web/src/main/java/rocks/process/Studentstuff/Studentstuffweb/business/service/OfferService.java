@@ -19,8 +19,11 @@ public class OfferService {
 
     @Autowired
     private OfferRepository offerRepository;
+    @Autowired
+    private CustomerService customerService;
 
     public Offer editOffer(@Valid Offer offer) throws Exception {
+        offer.setProvider(customerService.getCurrentCustomer());
         return offerRepository.save(offer);
     }
 

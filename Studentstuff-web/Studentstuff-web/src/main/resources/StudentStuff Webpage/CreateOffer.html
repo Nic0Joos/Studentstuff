@@ -47,7 +47,7 @@
                 <p style="color: var(--light);">Description:<input type="text" name="description" style="height: 45px;width: auto;min-width: 100%;padding: 0px;">&nbsp;</p>
                 <p style="color: var(--light);">Picture:&nbsp;</p>
                 <div class="form-group files color"><input type="file" multiple="" name="files" style="width: 90%;"></div>
-                <div><button class="btn btn-primary btn-block" type="submit" style="background: #107989;">Create</button></div>
+                <div><button id="submitBtn" class="btn btn-primary btn-block" type="submit" style="background: #107989;">Create</button></div>
             </div>
         </div>
     </div>
@@ -67,9 +67,9 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script language="JavaScript">
         $(document).ready(function () {
-            $("#form").submit(function (event) {
+            $("#submitBtn").submit(function (event) {
                 postOffer(getOfferJSON(null, $('input[name=name]').val(), $('input[name=price]').val(),
-                                       $('input[name=description]').val()), $('input[name=files]').val()) function (result) {
+                                       $('input[name=description]').val()) function (result) {
                     window.location.replace("/offer");
                 }, function (error) {
                     $("#error-modal").modal('show');
