@@ -30,17 +30,25 @@ public class CustomerController {
     }
 
     @GetMapping(path = "/edit")
-        public String getCustomerEditView() {return "EditAccount.html";}
+    public String getCustomerEditView() {
+        return "EditAccount.html";
+    }
 
-        @GetMapping ("/create")
-        public String getCustomerCreateView() {return "CreateOffer.html";}
+    @GetMapping("/create")
+    public String getCustomerCreateView() {
+        return "CreateOffer.html";
+    }
 
-        @GetMapping ("/buy")
-        public String getMarketplaceView() {return "Marketplace.html";}
+    @GetMapping("/buy")
+    public String getMarketplaceView() {
+        return "Marketplace.html";
+    }
 
-        @GetMapping ("/Policy")
-        public String getPolicyView() {return "PrivacyPolicy.html";}
+    @GetMapping("/Policy")
+    public String getPolicyView() {
+        return "PrivacyPolicy.html";
+    }
 
-
+}
 
 
