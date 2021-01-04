@@ -3,10 +3,7 @@ package rocks.process.Studentstuff.Studentstuffweb.api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import rocks.process.Studentstuff.Studentstuffweb.business.service.OfferService;
@@ -14,6 +11,7 @@ import rocks.process.Studentstuff.Studentstuffweb.data.domain.Offer;
 
 import javax.validation.ConstraintViolationException;
 import java.net.URI;
+import java.util.List;
 
 @RestController
 @RequestMapping(path ="/api")
@@ -34,10 +32,17 @@ public class OfferEndpoint {
 
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest().path("/{customerId}")
-                .buildAndExpand(offer.getId()).toUri();
+                .buildAndExpand(offer.getOfferId()).toUri();
 
         return ResponseEntity.created(location).body(offer);
     }
+
+    @GetMapping(path = "/market", produces = "application/json")
+    public List<Offer> getOffers() {
+        return offerService.findAllOpenOffers();
+    }
+
+
 
 
 }

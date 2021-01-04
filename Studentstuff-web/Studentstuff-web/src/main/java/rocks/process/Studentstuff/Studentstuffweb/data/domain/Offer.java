@@ -19,7 +19,7 @@ public class Offer {
     private String price;
     private String description;
     private byte[] files;
-    private boolean bought;
+    private boolean open;
 
 
     public Long getOfferId() {
@@ -70,11 +70,11 @@ public class Offer {
         this.files = files;
     }
 
-    public boolean isBought() {
-        return bought;
+    public boolean isOpen() {
+        return open;
     }
 
-    public void setBought(boolean bought) {
-        this.bought = bought;
+    public void setOpen(boolean open) {
+        this.open = open;
     }
 }

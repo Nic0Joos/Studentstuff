@@ -34,17 +34,12 @@ public class CustomerController {
         return "EditAccount.html";
     }
 
-    @GetMapping("/create")
+    @GetMapping(path = "/create")
     public String getCustomerCreateView() {
         return "CreateOffer.html";
     }
 
-    @GetMapping("/buy")
-    public String getMarketplaceView() {
-        return "Marketplace.html";
-    }
-
-    @GetMapping("/Policy")
+    @GetMapping(path = "/Policy")
     public String getPolicyView() {
         return "PrivacyPolicy.html";
     }

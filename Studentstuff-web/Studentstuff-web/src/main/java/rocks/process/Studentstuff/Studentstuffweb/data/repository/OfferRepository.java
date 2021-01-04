@@ -13,6 +13,7 @@ import java.util.List;
 
 @Repository
 public interface OfferRepository extends JpaRepository<Offer, Long> {
-	Offer findbyOfferID(Offer OfferID);
+	List<Offer> findMyOffers(Long CustId);
+	List<Offer> findAllOpenOffers(Boolean open);
 
 	}

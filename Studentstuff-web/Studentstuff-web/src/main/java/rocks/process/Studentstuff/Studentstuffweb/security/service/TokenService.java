@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import rocks.process.Studentstuff.Studentstuffweb.security.config.TokenSecurityProperties;
 import rocks.process.Studentstuff.Studentstuffweb.security.model.Token;
 
-
 import javax.crypto.spec.SecretKeySpec;
 import javax.persistence.EntityManager;
 import java.security.Key;

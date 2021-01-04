@@ -24,7 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Minor bug fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Offer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/repository/OfferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/security/service/TokenService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +75,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -194,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609673369269</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Minor bug fixes">
+      <created>1609674781813</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609674781813</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Minor bug fixes">
+      <created>1609674837009</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609674837009</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +250,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609673292355" />
+    <state x="-1280" y="1308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609675262144">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1280" y="1308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609675262144" />
     <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607608978694">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
@@ -246,6 +270,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609192405203" />
+    <state x="-1459" y="1217" key="SettingsEditor" timestamp="1609765451313">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1459" y="1217" key="SettingsEditor/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609765451313" />
     <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1609336353491">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>

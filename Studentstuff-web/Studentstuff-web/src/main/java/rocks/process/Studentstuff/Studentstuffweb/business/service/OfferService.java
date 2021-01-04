@@ -12,6 +12,7 @@ import rocks.process.Studentstuff.Studentstuffweb.data.domain.Offer;
 import rocks.process.Studentstuff.Studentstuffweb.data.repository.OfferRepository;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @Service
 @Validated
@@ -21,10 +22,19 @@ public class OfferService {
     private OfferRepository offerRepository;
     @Autowired
     private CustomerService customerService;
+    @Autowired
+    private Offer offer;
 
     public Offer editOffer(@Valid Offer offer) throws Exception {
         offer.setProvider(customerService.getCurrentCustomer());
+        offer.setOpen(true);
         return offerRepository.save(offer);
     }
+
+    public List<Offer> findAllOpenOffers() {
+        return offerRepository.findAllOpenOffers(offer.isOpen());
+    }
+
+
 
 }
