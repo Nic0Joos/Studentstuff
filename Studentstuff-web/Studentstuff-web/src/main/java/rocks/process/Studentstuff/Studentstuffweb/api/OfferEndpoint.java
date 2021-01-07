@@ -31,7 +31,7 @@ public class OfferEndpoint {
         }
 
         URI location = ServletUriComponentsBuilder
-                .fromCurrentRequest().path("/{customerId}")
+                .fromCurrentRequest().path("/{OfferID}")
                 .buildAndExpand(offer.getOfferId()).toUri();
 
         return ResponseEntity.created(location).body(offer);
