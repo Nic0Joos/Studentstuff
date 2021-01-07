@@ -42,6 +42,19 @@ public class OfferEndpoint {
         return offerService.findAllOpenOffers();
     }
 
+    @GetMapping(path = "/offer", produces = "application/json")
+    public List<Offer> getMyOffers(){return offerService.findMyOffers();}
+
+    @DeleteMapping(path = "/offer/{OfferID}")
+    public ResponseEntity<Void> deleteCustomer(@PathVariable(value = "OfferID") String OfferID) {
+        try {
+            offerService.deleteOffer(Long.parseLong(OfferID));
+        } catch (Exception e) {
+            throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE, e.getMessage());
+        }
+        return ResponseEntity.accepted().build();
+    }
+
 
 
 

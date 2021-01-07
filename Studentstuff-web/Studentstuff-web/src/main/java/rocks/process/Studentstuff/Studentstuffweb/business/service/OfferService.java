@@ -35,6 +35,14 @@ public class OfferService {
         return offerRepository.findAllOpenOffers(offer.isOpen());
     }
 
+    public List<Offer> findMyOffers() {
+        return offerRepository.findMyOffers(customerService.getCurrentCustomer().getId());
+    }
+
+    public void deleteOffer(Long OfferID)
+    {
+        offerRepository.deleteById(OfferID);
+    }
 
 
 }
