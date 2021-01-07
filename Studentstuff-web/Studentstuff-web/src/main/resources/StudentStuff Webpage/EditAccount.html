@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body style="height: 844px;background: url(&quot;assets/img/studentstuff%20background.jpg&quot;);">
+<body style="height: 944px;background: url(&quot;assets/img/studentstuff%20background.jpg&quot;);">
     <nav class="navbar navbar-light navbar-expand-md navigation-clean">
         <div class="container"><a href="StudentStuff.html"><img src="assets/img/StudentStuffLogo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
@@ -37,15 +37,11 @@
         <div class="row">
             <div class="col" style="height: 365px;">
                 <h1 class="text-center" style="height: 125px;padding: 46px;color: var(--light);font-size: 28px;">Edit your account</h1>
-                <p style="color: var(--light);">Name:<div contenteditable="true">
-                Enter your new Name
-            </div></p>
-                <p style="color: var(--light);">Adress:<div contenteditable="true">
-                Enter your new adress
-            </div>&nbsp;</p>
-                <p style="color: var(--light);">Mail:<div contenteditable="true">
-                Enter your new mail
-            </div>&nbsp;</p>
+                <input class="form-control" type="text" name="name" placeholder="Name"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="email" placeholder="E-Mail"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="password" placeholder="Password"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="mobile" placeholder="Mobile"><h1 style="margin-top: 10px;"</h1>
+                <div><button id="ChangeBtn" class="btn btn-primary btn-block" type="submit" style="background: white;color: black;">Save Changes</button></div>
             </div>
         </div>
     </div>
@@ -64,6 +60,25 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script language="JavaScript">
+        $(document).ready(function () {
+            getCustomer(function (result) {
+                $('input[name=name]').val(result["name"]);
+                $('input[name=email]').val(result["email"]);
+                $('input[name=mobile]').val(result["mobile"]);
+            });
+
+        $("#form").submit(function (event) {
+                putProfile($('input[name=name]').val(), $('input[name=email]').val(), $('input[name=password]').val(), $('input[name=mobile]').val()function (result) {
+                    window.location.replace("/edit");
+                }, function (error) {
+                    $("#error-modal").modal('show');
+                    $("#error-text").text(error);
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
 </body>
 
 </html>
