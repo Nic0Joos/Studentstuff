@@ -22,10 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="get request for offers">
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="bug fixing">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Offers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -79,6 +78,7 @@
       <recent name="rocks.process.Studentstuff.Studentstuffweb.business.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources\StudentStuff Webpage" />
       <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\java\rocks\process\Studentstuff\Studentstuffweb" />
     </key>
   </component>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609770110897</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="bug fixing">
+      <created>1610027893780</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610027893780</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,7 +254,8 @@
     <MESSAGE value="getCookie method" />
     <MESSAGE value="Minor bug fixes" />
     <MESSAGE value="get request for offers" />
-    <option name="LAST_COMMIT_MESSAGE" value="get request for offers" />
+    <MESSAGE value="bug fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fixing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1609673292355">
@@ -278,10 +286,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1459" y="1217" key="SettingsEditor/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609765451313" />
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1609770116799">
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610027897404">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609770116799" />
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610027897404" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609232276043" />
     <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609330349071">
