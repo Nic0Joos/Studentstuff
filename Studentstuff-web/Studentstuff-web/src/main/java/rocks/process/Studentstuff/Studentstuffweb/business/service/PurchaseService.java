@@ -12,14 +12,24 @@ import rocks.process.Studentstuff.Studentstuffweb.data.domain.Purchase;
 import rocks.process.Studentstuff.Studentstuffweb.data.repository.PurchaseRepository;
 
 import javax.validation.Valid;
-import java.util.List;
 
 @Service
 @Validated
 public class PurchaseService {
 
-	//Methods
     @Autowired
     private PurchaseRepository PurchaseRepository;
+    @Autowired
+    private CustomerService customerService;
+    @Autowired
+    private CustomerService offerService;
+    @Autowired
+    private Purchase purchase;
+
+    public Purchase editPurchase(@Valid Purchase purchase) throws Exception {
+        purchase.setBuyer(customerService.getCurrentCustomer());
+
+        return PurchaseRepository.save(purchase);
+    }
 
 }

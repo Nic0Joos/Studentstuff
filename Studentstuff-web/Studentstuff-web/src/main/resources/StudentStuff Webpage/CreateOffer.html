@@ -69,7 +69,7 @@
         $(document).ready(function () {
             $("#submitBtn").submit(function (event) {
                 postOffer(getOfferJSON(null, $('input[name=name]').val(), $('input[name=price]').val(),
-                                       $('input[name=description]').val()) function (result) {
+                                    $('input[name=description]').val()) function (result) {
                     window.location.replace("/offer");
                 }, function (error) {
                     $("#error-modal").modal('show');

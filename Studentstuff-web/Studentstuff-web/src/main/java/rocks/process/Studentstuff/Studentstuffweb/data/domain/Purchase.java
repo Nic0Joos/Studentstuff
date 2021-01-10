@@ -1,29 +1,34 @@
 package rocks.process.Studentstuff.Studentstuffweb.data.domain;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.*;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Purchase{
 
     @Id
     @GeneratedValue
-    private Long PurchId;
+    private Long PurchaseID;
+    private String name;
     @ManyToOne
     private Customer buyer;
     @OneToOne
-    private Offer offer;
+    private Long offerID;
 
     public Long getId() {
-        return PurchId;
+        return PurchaseID;
     }
 
     public void setId(Long id) {
-        this.PurchId = id;
+        this.PurchaseID = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public Customer getBuyer() {
@@ -34,11 +39,11 @@ public class Purchase{
         this.buyer = buyer;
     }
 
-    public Offer getOffer() {
-        return offer;
+    public Long getOfferID() {
+        return offerID;
     }
 
-    public void setOffer(Offer offer) {
-        this.offer = offer;
+    public void setOfferID(Long offerID) {
+        this.offerID = offerID;
     }
 }

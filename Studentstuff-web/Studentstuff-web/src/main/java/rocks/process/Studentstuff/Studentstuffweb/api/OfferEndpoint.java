@@ -45,7 +45,7 @@ public class OfferEndpoint {
     @GetMapping(path = "/offer", produces = "application/json")
     public List<Offer> getMyOffers(){return offerService.findMyOffers();}
 
-    @DeleteMapping(path = "/offer/{OfferID}")
+    @DeleteMapping(path = "/offer/delete/{OfferID}")
     public ResponseEntity<Void> deleteCustomer(@PathVariable(value = "OfferID") String OfferID) {
         try {
             offerService.deleteOffer(Long.parseLong(OfferID));

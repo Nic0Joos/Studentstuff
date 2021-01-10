@@ -23,11 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="My offers site">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/MyOffers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/PurchaseEndpoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Offers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Offer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/MyOffers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/MyOffers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Offer.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rocks.process.Studentstuff.Studentstuffweb.api" />
       <recent name="rocks.process.Studentstuff.Studentstuffweb.config" />
       <recent name="rocks.process.Studentstuff.Studentstuffweb.business.service" />
     </key>
@@ -235,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610031305701</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="My offers site">
+      <created>1610032844614</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610032844614</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,10 +282,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="My offers site" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1609673292355">
+    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1610293440439">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609673292355" />
+    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610293440439" />
     <state x="-1280" y="1308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609675262144">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
@@ -298,10 +310,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1459" y="1217" key="SettingsEditor/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609765451313" />
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610031310353">
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610032848354">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610031310353" />
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610032848354" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609232276043" />
     <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609330349071">

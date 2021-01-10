@@ -64,11 +64,45 @@ function postOffer(offer, callbackSuccess, callbackError) {
         }
     });
 }
+
+function postPurchase(purchase, callbackSuccess, callbackError) {
+    $.ajax({
+        type: "POST",
+        contentType: "application/json",
+        headers: {
+            "X-XSRF-TOKEN": getCookie("XSRF-TOKEN")
+        },
+        url: serviceEndpointURL + "/api/market",
+        data: purchase,
+        success: function (data, textStatus, response) {
+            callbackSuccess(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown);
+            callbackError(jqXHR.responseJSON.message);
+        }
+    });
+}
+
 function getOffers(OfferID, callback) {
     $.ajax({
         type: "GET",
         dataType: "json",
         url: serviceEndpointURL + "/api/offer/" + OfferID,
+        success: function (data, textStatus, response) {
+            callback(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            console.log(jqXHR, textStatus, errorThrown);
+        }
+    });
+}
+
+function getOpenOffers(OfferID, callback) {
+    $.ajax({
+        type: "GET",
+        dataType: "json",
+        url: serviceEndpointURL + "/api/market/" + OfferID,
         success: function (data, textStatus, response) {
             callback(data);
         },
@@ -99,8 +133,17 @@ function getOfferJSON(id, name, price, description, files) {
         return JSON.stringify({
             "name": name,
             "email": email,
-            "mobile": mobile
+            "mobile": mobile,
             "files": files
+        });
+    }
+}
+
+function getPurchaseJSON(id, name, offerID) {
+    if (id === null) {
+        return JSON.stringify({
+            "name": name,
+            "offerID": offerID
         });
     }
 }
