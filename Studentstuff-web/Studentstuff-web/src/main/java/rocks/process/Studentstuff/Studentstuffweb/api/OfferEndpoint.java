@@ -55,6 +55,16 @@ public class OfferEndpoint {
         return ResponseEntity.accepted().build();
     }
 
+    @PutMapping(path = "/market/buy", consumes = "application/json", produces = "application/json")
+    public ResponseEntity<Offer> putOffer (@RequestBody Offer offer, @PathVariable(value = "OfferID")String OfferID){
+    try {
+        offer.setOfferId(Long.parseLong(OfferID));
+        offer =offerService.putOffer(offer);
+    } catch (Exception e) {
+        throw new ResponseStatusException(HttpStatus.NOT_ACCEPTABLE, e.getMessage());
+    }
+        return ResponseEntity.accepted().body(offer);
+    }
 
 
 

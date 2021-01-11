@@ -92,6 +92,7 @@
             $("#Buy").submit(function (event) {
                 postPurchase(getOfferJSON(null, $('[name=name]').val(), $('[name=offerID]').val(), function (result) {
                     window.location.replace("/market/buy");
+                    putOffer($('[name=offerID]').val());
                 }, function (error) {
                     $("#error-modal").modal('show');
                     $("#error-text").text(error);

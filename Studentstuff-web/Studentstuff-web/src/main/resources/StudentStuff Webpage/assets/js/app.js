@@ -128,6 +128,26 @@ function deleteOffer(OfferID, callback) {
     });
 }
 
+function putOffer(OfferID, callbackSuccess, callbackError) {
+    $.ajax({
+        type: "PUT",
+        headers: {
+            "X-XSRF-TOKEN": getCookie("XSRF-TOKEN")
+        },
+        url: serviceEndpointURL + "/api/market/buy",
+        success: function (data, textStatus, response) {
+            callback(data);
+        },
+        success: function (data, textStatus, response) {
+                    callbackSuccess(true);
+                },
+         error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(jqXHR, textStatus, errorThrown);
+                    callbackError(jqXHR.responseJSON.message);
+         }
+    });
+}
+
 function getOfferJSON(id, name, price, description, files) {
     if (id === null) {
         return JSON.stringify({

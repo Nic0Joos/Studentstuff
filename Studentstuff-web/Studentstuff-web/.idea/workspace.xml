@@ -22,16 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="My offers site">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/PurchaseEndpoint.java" afterDir="false" />
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="bug fix in Marketplace.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/api/OfferEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/PurchaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/data/domain/Purchase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/CreateOffer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/process/Studentstuff/Studentstuffweb/business/service/OfferService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Marketplace.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/MyOffers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/MyOffers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/Offer.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/StudentStuff Webpage/assets/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610032844614</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Purchase and Offer finished">
+      <created>1610293492416</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610293492417</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bug fix in Marketplace.html">
+      <created>1610293653680</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610293653680</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,7 +288,9 @@
     <MESSAGE value="get request for offers" />
     <MESSAGE value="bug fixing" />
     <MESSAGE value="My offers site" />
-    <option name="LAST_COMMIT_MESSAGE" value="My offers site" />
+    <MESSAGE value="Purchase and Offer finished" />
+    <MESSAGE value="bug fix in Marketplace.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix in Marketplace.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1610293440439">
@@ -310,10 +321,10 @@
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
     <state x="-1459" y="1217" key="SettingsEditor/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609765451313" />
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610032848354">
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610293656079">
       <screen x="-1920" y="1064" width="1920" height="1019" />
     </state>
-    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610032848354" />
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610293656079" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
     <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1609232276043" />
     <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609330349071">

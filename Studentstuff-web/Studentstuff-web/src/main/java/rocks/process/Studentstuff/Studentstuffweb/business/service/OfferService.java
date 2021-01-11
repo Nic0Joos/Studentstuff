@@ -31,6 +31,11 @@ public class OfferService {
         return offerRepository.save(offer);
     }
 
+    public Offer putOffer(@Valid Offer offer) throws Exception {
+        offer.setOpen(false);
+        return offerRepository.save(offer);
+    }
+
     public List<Offer> findAllOpenOffers() {
         return offerRepository.findAllOpenOffers(offer.isOpen());
     }
