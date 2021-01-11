@@ -9,11 +9,11 @@
     },
     "PATH_TO_PROJECT": {
       "description": "The path to the default deployment of the multi module project.",
-      "value": "Studentstuff-web"
+      "value": "Studentstuffweb"
     },
     "MAVEN_CUSTOM_OPTS": {
       "description": "Define the default deployment of the multi module project.",
-      "value": "-pl Studentstuff-web"
+      "value": "-pl Studentstuffweb"
     }
   },
   "addons": [ "heroku-postgresql" ]
