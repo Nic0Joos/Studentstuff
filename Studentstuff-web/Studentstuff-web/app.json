@@ -1,0 +1,20 @@
+{
+  "name": "Studentstuff",
+  "description": "Minimal Webshop as student project",
+  "website": " https://studentstuff-web.herokuapp.com/",
+  "env": {
+    "TOKEN_SECRET": {
+      "description": "A secret key for verifying the integrity of JWT.",
+      "generator": "secret"
+    },
+    "PATH_TO_PROJECT": {
+      "description": "The path to the default deployment of the multi module project.",
+      "value": "Studentstuffweb"
+    },
+    "MAVEN_CUSTOM_OPTS": {
+      "description": "Define the default deployment of the multi module project.",
+      "value": "-pl Studentstuffweb"
+    }
+  },
+  "addons": [ "heroku-postgresql" ]
+}
