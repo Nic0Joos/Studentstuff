@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class IndexController {
 
     @GetMapping
-    public String getIndexView() {return "Home.html";}
+    public String getIndexView() {return "Index.html";}
 
 }
