@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package rocks.process.Studentstuff.Studentstuffweb.controller;
 
 
@@ -19,3 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
         }
     }
 
+=======
+@Controller
+@RequestMapping (path = "/")
+public class CustomerController {
+    @getMapping
+    public String getIndexView() {return "Home.html"}
+}
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main

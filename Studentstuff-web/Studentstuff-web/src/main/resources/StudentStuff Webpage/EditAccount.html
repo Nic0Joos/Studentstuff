@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Studenstuff</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap-4---Product-List.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="assets/css/Drag-Drop-File-Input-Upload.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="height: 944px;background: url(&quot;assets/img/studentstuff%20background.jpg&quot;);">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a href="StudentStuff.html"><img src="assets/img/StudentStuffLogo.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active text-info" href="Login.html"><strong>Login</strong></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" style="height: 365px;">
+                <h1 class="text-center" style="height: 125px;padding: 46px;color: var(--light);font-size: 28px;">Edit your account</h1>
+                <input class="form-control" type="text" name="name" placeholder="Name"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="email" placeholder="E-Mail"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="password" placeholder="Password"><h1 style="margin-top: 10px;"</h1>
+                <input class="form-control" type="text" name="mobile" placeholder="Mobile"><h1 style="margin-top: 10px;"</h1>
+                <div><button id="ChangeBtn" class="btn btn-primary btn-block" type="submit" style="background: white;color: black;">Save Changes</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-basic" style="height: 203px;">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/studenstufffhnw/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/studenstuff"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/studentstuff.fhnw.7"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Contact</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="About.html">About</a></li>
+                <li class="list-inline-item"><a href="Terms.html">Terms</a></li>
+                <li class="list-inline-item"><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Studenstuff © 2020</p>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script language="JavaScript">
+        $(document).ready(function () {
+            getCustomer(function (result) {
+                $('input[name=name]').val(result["name"]);
+                $('input[name=email]').val(result["email"]);
+                $('input[name=mobile]').val(result["mobile"]);
+            });
+
+        $("#form").submit(function (event) {
+                putProfile($('input[name=name]').val(), $('input[name=email]').val(), $('input[name=password]').val(), $('input[name=mobile]').val()function (result) {
+                    window.location.replace("/edit");
+                }, function (error) {
+                    $("#error-modal").modal('show');
+                    $("#error-text").text(error);
+                });
+                event.preventDefault();
+            });
+        });
+    </script>
+</body>
+
+</html>
