@@ -39,10 +39,7 @@ public class CustomerController {
         return "CreateOffer.html";
     }
 
-    @GetMapping(path = "/Policy")
-    public String getPolicyView() {
-        return "PrivacyPolicy.html";
-    }
+
 
 }
 
