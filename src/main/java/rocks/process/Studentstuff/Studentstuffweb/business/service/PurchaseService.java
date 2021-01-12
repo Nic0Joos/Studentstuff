@@ -22,11 +22,9 @@ public class PurchaseService {
     @Autowired
     private CustomerService customerService;
     @Autowired
-    private CustomerService offerService;
-    @Autowired
     private Purchase purchase;
 
-    public Purchase editPurchase(@Valid Purchase purchase) throws Exception {
+    public Purchase editPurchase(@Valid Purchase purchase){
         purchase.setBuyer(customerService.getCurrentCustomer());
 
         return PurchaseRepository.save(purchase);
