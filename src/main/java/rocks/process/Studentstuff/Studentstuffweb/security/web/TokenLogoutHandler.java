@@ -7,8 +7,8 @@ package rocks.process.Studentstuff.Studentstuffweb.security.web;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutHandler;
-import rocks.process.security.config.TokenSecurityProperties;
-import rocks.process.security.service.TokenService;
+import rocks.process.Studentstuff.Studentstuffweb.security.config.TokenSecurityProperties;
+import rocks.process.Studentstuff.Studentstuffweb.security.service.TokenService;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
