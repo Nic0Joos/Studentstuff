@@ -25,13 +25,13 @@ public class OfferService {
     @Autowired
     private Offer offer;
 
-    public Offer editOffer(@Valid Offer offer) throws Exception {
+    public Offer editOffer(@Valid Offer offer){
         offer.setProvider(customerService.getCurrentCustomer());
         offer.setOpen(true);
         return offerRepository.save(offer);
     }
 
-    public Offer putOffer(@Valid Offer offer) throws Exception {
+    public Offer putOffer(@Valid Offer offer){
         offer.setOpen(false);
         return offerRepository.save(offer);
     }
