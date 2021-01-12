@@ -1,7 +1,7 @@
 {
   "name": "Studentstuff",
   "description": "Minimal Webshop as student project",
-  "website": "?",
+  "website": " https://studentstuff-web.herokuapp.com/",
   "env": {
     "TOKEN_SECRET": {
       "description": "A secret key for verifying the integrity of JWT.",
