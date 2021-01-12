@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="Procfile changed">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pox.xml" beforeDir="false" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1lT3tmej2E4qLIUTW233Oqy9ylc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+<<<<<<< HEAD
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources\StudentStuff Webpage" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\java\rocks\process\Studentstuff\Studentstuffweb" />
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources\StudentStuff Webpage" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rocks.process.Studentstuff.Studentstuffweb.api" />
+      <recent name="rocks.process.Studentstuff.Studentstuffweb.config" />
+      <recent name="rocks.process.Studentstuff.Studentstuffweb.business.service" />
+    </key>
+<<<<<<< HEAD
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources\StudentStuff Webpage" />
+=======
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\resources\StudentStuff Webpage" />
+      <recent name="C:\Users\joosn\IdeaProjects\Studentstuff\Studentstuff-web\Studentstuff-web\src\main\java\rocks\process\Studentstuff\Studentstuffweb" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5006e18c-427e-44be-9b8c-77d67fd7212e" name="Default Changelist" comment="" />
+      <created>1607607471401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607607471401</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Cleaned up errors on paths">
+      <created>1607609911252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609911252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adjusted dropdown / added service classes">
+      <created>1608668973344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608668973344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added static links">
+      <created>1608669866162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608669866162</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Link adjustments">
+      <created>1608733908367</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608733908367</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Entered privacy policy">
+      <created>1608734581732</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608734581732</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Footer adjustments">
+      <created>1608750413729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608750413729</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Footer adjustments">
+      <created>1609161459969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609161459969</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implemented customer register">
+      <created>1609186906935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609186906935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented security">
+      <created>1609191595841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609191595841</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adjusted customer to seller and buyer">
+      <created>1609231876180</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609231876180</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add config">
+      <created>1609232272301</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609232272301</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add config">
+      <created>1609243850302</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609243850302</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Offer post-method / customer register">
+      <created>1609335164812</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335164812</updated>
+    </task>
+    <task id="LOCAL-00014" summary="getCookie method">
+      <created>1609336349189</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609336349189</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Minor bug fixes">
+      <created>1609673369269</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609673369269</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Minor bug fixes">
+      <created>1609674781813</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609674781813</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Minor bug fixes">
+      <created>1609674837009</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609674837009</updated>
+    </task>
+    <task id="LOCAL-00018" summary="get request for offers">
+      <created>1609770110897</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1609770110897</updated>
+    </task>
+    <task id="LOCAL-00019" summary="bug fixing">
+      <created>1610027893780</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610027893780</updated>
+    </task>
+    <task id="LOCAL-00020" summary="My offers site">
+      <created>1610031305701</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610031305701</updated>
+    </task>
+    <task id="LOCAL-00021" summary="My offers site">
+      <created>1610032844614</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610032844614</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Purchase and Offer finished">
+      <created>1610293492416</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610293492417</updated>
+    </task>
+    <task id="LOCAL-00023" summary="bug fix in Marketplace.html">
+      <created>1610293653680</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1610293653680</updated>
+    </task>
+    <task id="LOCAL-00024" summary="putOffer -&gt; false when bought">
+      <created>1610366116226</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610366116226</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Procfile / app.json">
+      <created>1610377221024</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1610377221024</updated>
+    </task>
+    <task id="LOCAL-00026" summary="test">
+      <created>1610377579863</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610377579863</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Procfile changed">
+      <created>1610453443078</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610453443078</updated>
+    </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00028" summary="pom.xml">
+      <created>1610454402164</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1610454402164</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Update">
+      <created>1610461079548</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1610461079548</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+=======
+    <option name="localTasksCounter" value="28" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaned up errors on paths" />
+    <MESSAGE value="Adjusted dropdown / added service classes" />
+    <MESSAGE value="added static links" />
+    <MESSAGE value="Link adjustments" />
+    <MESSAGE value="Entered privacy policy" />
+    <MESSAGE value="Footer adjustments" />
+    <MESSAGE value="Implemented customer register" />
+    <MESSAGE value="Implemented security" />
+    <MESSAGE value="Adjusted customer to seller and buyer" />
+    <MESSAGE value="Add config" />
+    <MESSAGE value="Offer post-method / customer register" />
+    <MESSAGE value="getCookie method" />
+    <MESSAGE value="Minor bug fixes" />
+    <MESSAGE value="get request for offers" />
+    <MESSAGE value="bug fixing" />
+    <MESSAGE value="My offers site" />
+    <MESSAGE value="Purchase and Offer finished" />
+    <MESSAGE value="bug fix in Marketplace.html" />
+    <MESSAGE value="putOffer -&gt; false when bought" />
+    <MESSAGE value="Procfile / app.json" />
+    <MESSAGE value="test" />
+    <MESSAGE value="Procfile changed" />
+<<<<<<< HEAD
+    <MESSAGE value="pom.xml" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Procfile changed" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1195" y="1374" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610377103865">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1195" y="1374" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610377103865" />
+    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser" timestamp="1610293440439">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1155" y="1256" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610293440439" />
+    <state x="-1280" y="1308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1609675262144">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1280" y="1308" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609675262144" />
+    <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607608978694">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1235" y="1441" width="550" height="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1607608978694" />
+    <state x="500" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609231509271">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="500" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1609231509271" />
+    <state x="496" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609601389177">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="496" y="262" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1609601389177" />
+    <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog" timestamp="1609192405203">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1430" y="1227" key="Maven.ArtifactSearchDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609192405203" />
+<<<<<<< HEAD
+    <state x="-1322" y="1334" key="MultipleFileMergeDialog" timestamp="1610461104703">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1322" y="1334" key="MultipleFileMergeDialog/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610461104703" />
+=======
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    <state x="-1459" y="1217" key="SettingsEditor" timestamp="1609765451313">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1459" y="1217" key="SettingsEditor/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609765451313" />
+<<<<<<< HEAD
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2" timestamp="1610461166352">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610461166352" />
+=======
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1610453447890">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="-1368" y="1305" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1610377582342" />
+>>>>>>> parent of 7d7e3dd... Merge pull request #20 from andreasmartin/main
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608750418276" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1610453447890" />
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609330349071">
+      <screen x="-1920" y="1064" width="1920" height="1019" />
+    </state>
+    <state x="-1185" y="1468" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@-1920.1064.1920.1019" timestamp="1609330349071" />
+    <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/-1920.1064.1920.1019@0.0.1536.834" timestamp="1608676308241" />
+    <state x="588" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1608669019559" />
+  </component>
+</project>
