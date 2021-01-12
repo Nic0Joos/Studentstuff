@@ -1,0 +1,12 @@
+{
+  "name": "Studentstuff",
+  "description": "Minimal Webshop as student project",
+  "website": " https://studentstuff-web.herokuapp.com/",
+  "env": {
+    "TOKEN_SECRET": {
+      "description": "A secret key for verifying the integrity of JWT.",
+      "generator": "secret"
+    }
+  },
+  "addons": [ "heroku-postgresql" ]
+}
