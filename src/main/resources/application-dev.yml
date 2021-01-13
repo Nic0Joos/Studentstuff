@@ -4,9 +4,9 @@ security:
 
 #spring:
 #  datasource:
-#    url: jdbc:h2:file:./data/database
-#    username: Traengcino
-#    password: goenk
+#    url: postgres://ummamljsawqevl:cdb7ca2410dac375a4477e027c5b9ae20ae0636b0284378a765148ea2985a0d9@ec2-54-155-99-116.eu-west-1.compute.amazonaws.com:5432/d770kgcfn93jnn
+#    username: ummamljsawqevl
+#    password: cdb7ca2410dac375a4477e027c5b9ae20ae0636b0284378a765148ea2985a0d9
 
 server:
   port: 5432
