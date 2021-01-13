@@ -41,7 +41,7 @@ public class CustomerController {
         return "PrivacyPolicy.html";
     }
 
-    @PutMapping("/profile")
+    @PutMapping("/edit")
     public ResponseEntity<Void> putProfile(@RequestBody Customer customer) {
         try {
               customerService.saveCustomer(customer);

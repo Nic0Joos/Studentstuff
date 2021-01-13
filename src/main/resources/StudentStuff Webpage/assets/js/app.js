@@ -194,7 +194,7 @@ function putCustomer(name, email, password, mobile, callbackSuccess, callbackErr
         headers: {
             "X-XSRF-TOKEN": getCookie("XSRF-TOKEN")
         },
-        url: serviceEndpointURL + "/profile",
+        url: serviceEndpointURL + "/edit",
         data: JSON.stringify({
             "name": name,
             "email": email,
