@@ -14,4 +14,4 @@ spring:
 
 security:
   token:
-    secret: ${Our-Traengecino-trash-sucablyatski-BIT-Projectwork-goenk5-secret}
+    secret: ${TOKEN_SECRET}
