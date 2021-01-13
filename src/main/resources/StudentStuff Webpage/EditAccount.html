@@ -70,7 +70,7 @@
             });
 
         $("#form").submit(function (event) {
-                putProfile($('input[name=name]').val(), $('input[name=email]').val(), $('input[name=password]').val(), $('input[name=mobile]').val()function (result) {
+                putCustomer($('input[name=name]').val(), $('input[name=email]').val(), $('input[name=password]').val(), $('input[name=mobile]').val()function (result) {
                     window.location.replace("/edit");
                 }, function (error) {
                     $("#error-modal").modal('show');
