@@ -9,4 +9,4 @@ security:
 #    password: goenk
 
 server:
-  port: 8080
+  port:
