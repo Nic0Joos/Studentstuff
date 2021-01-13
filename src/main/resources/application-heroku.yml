@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${jdbc:h2:file:./data/database}
-    username: ${Traengcino}
-    password: ${goenk}
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
   jpa:
     properties:
       hibernate:
@@ -14,4 +14,4 @@ spring:
 
 security:
   token:
-    secret: ${Our-Traengecino-trash-sucablyatski-BIT-Projectwork-goenk5-secret}
+    secret: ${TOKEN_SECRET}
