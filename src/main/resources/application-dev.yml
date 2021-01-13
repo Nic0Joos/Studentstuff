@@ -5,8 +5,8 @@ security:
 #spring:
 #  datasource:
 #    url: ec2-54-155-99-116.eu-west-1.compute.amazonaws.com
-#    username: ummamljsawqevl
-#    password: cdb7ca2410dac375a4477e027c5b9ae20ae0636b0284378a765148ea2985a0d9
+#    username: Traengecino
+#    password: Goenk
 
 server:
-  port: 5432
+  port: 8080
